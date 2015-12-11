@@ -22,6 +22,12 @@ function drawGrid() {
 	//highlight
 	$(".block").mouseenter(function(){
 		$(this).addClass('highlighted');
+
+		var value = parseFloat($(this).css("opacity"));
+		if (value<1){
+			value += 0.1;
+		}
+		$(this).css("opacity",value);
 	});
 
 	blockWidth = (+$(".wrapper").width()) / numSides;

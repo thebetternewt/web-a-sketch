@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: white;
 
 }
 
@@ -24,10 +24,11 @@ body {
 	width: 10px;
 	height: 10px;
 	/*border-radius: 1px;*/
-	background-color: blue;
+	background-color: #e6e6e6;
 	display: inline-block;
 }
 
 .highlighted{
-	background-color: yellow;
+	background-color: blue;
+	opacity: 0.1;
 }
